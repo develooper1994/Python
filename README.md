@@ -1,0 +1,2 @@
+# TemelPython
+Türkçe Python Kaynağı
