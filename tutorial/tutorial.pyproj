@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{036eb2db-0c62-4f8a-a4c3-2c9d0c7b7bed}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="getting_started\basics.py" />
+    <Compile Include="getting_started\listall.py" />
+    <Compile Include="getting_started\section4Conditions\assertation.py" />
+    <Compile Include="getting_started\section4Conditions\cel_to_fahr.py" />
+    <Compile Include="getting_started\section4Conditions\conditions.py" />
+    <Compile Include="getting_started\section4Conditions\functions.py" />
+    <Compile Include="getting_started\section4Conditions\string_length.py" />
+    <Compile Include="getting_started\section4Conditions\UserInput.py" />
+    <Compile Include="getting_started\section5Loops\example.py" />
+    <Compile Include="getting_started\section5Loops\forLoop.py" />
+    <Compile Include="getting_started\section5Loops\forLoopMultipleLines.py" />
+    <Compile Include="getting_started\section5Loops\UserInput.py" />
+    <Compile Include="getting_started\section5Loops\whileLoop.py" />
+    <Compile Include="getting_started\section6FileHandle\Exercise.py" />
+    <Compile Include="getting_started\section6FileHandle\Exercise2.py" />
+    <Compile Include="getting_started\section6FileHandle\openCloseFile.py" />
+    <Compile Include="getting_started\section6FileHandle\WithStatement.py" />
+    <Compile Include="getting_started\section6FileHandle\WriteToFile.py" />
+    <Compile Include="getting_started\section7MoreFunctions\CommentAndDocument.py" />
+    <Compile Include="getting_started\section7MoreFunctions\DateAndTime.py" />
+    <Compile Include="getting_started\section7MoreFunctions\MergingTextFiles.py" />
+    <Compile Include="getting_started\section7MoreFunctions\modules.py" />
+    <Compile Include="getting_started\section8InteractiveDictionary\accessData.py" />
+    <Compile Include="getting_started\section8InteractiveDictionary\app1 %281%29.py" />
+    <Compile Include="getting_started\section8InteractiveDictionary\app1.py" />
+    <Compile Include="getting_started\secton123\dictionary.py" />
+    <Compile Include="getting_started\secton123\list.py" />
+    <Compile Include="getting_started\secton123\numbers.py" />
+    <Compile Include="getting_started\secton123\RuntimeError.py" />
+    <Compile Include="getting_started\secton123\strings.py" />
+    <Compile Include="getting_started\secton123\tuples.py" />
+    <Compile Include="getting_started\secton123\variables.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="getting_started\section10Numpy\new_smallgray.png" />
+    <Content Include="getting_started\section10Numpy\smallgray.png" />
+    <Content Include="getting_started\section5Loops\example.txt" />
+    <Content Include="getting_started\section6FileHandle\example.txt" />
+    <Content Include="getting_started\section6FileHandle\exercise1.txt" />
+    <Content Include="getting_started\section6FileHandle\exercise3.txt" />
+    <Content Include="getting_started\section6FileHandle\fruits.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-41-10-660760.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-41-44-185165.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-44-58-915812.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-45-10-911321.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-46-33-636640.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-48-12-082510.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-48-21-280311.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-49-34-221270.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-52-25-071508.txt" />
+    <Content Include="getting_started\section7MoreFunctions\2018-02-11-11-55-11-723439.txt" />
+    <Content Include="getting_started\section7MoreFunctions\file1.txt" />
+    <Content Include="getting_started\section7MoreFunctions\file2.txt" />
+    <Content Include="getting_started\section7MoreFunctions\file3.txt" />
+    <Content Include="getting_started\section9Pandas\GeoPy.html" />
+    <Content Include="getting_started\section9Pandas\pandasDataProcess.html" />
+    <Content Include="getting_started\section9Pandas\supermarkets-commas.txt" />
+    <Content Include="getting_started\section9Pandas\supermarkets-semi-colons.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="getting_started" />
+    <Folder Include="getting_started\section10Numpy" />
+    <Folder Include="getting_started\section4Conditions" />
+    <Folder Include="getting_started\section5Loops" />
+    <Folder Include="getting_started\section6FileHandle" />
+    <Folder Include="getting_started\section7MoreFunctions" />
+    <Folder Include="getting_started\section8InteractiveDictionary" />
+    <Folder Include="getting_started\section9Pandas" />
+    <Folder Include="getting_started\secton123" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
