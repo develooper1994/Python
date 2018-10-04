@@ -1,6 +1,6 @@
 # TemelPython
 Türkçe Python Kaynağı
-<h1>Python Eğitimi</h1>
+<h1>Python</h1>
 Ayrıca yaptığım birkaç projeyi incelerseniz Python ufkunuzu açacaktır.
 Audio Spectrum(ses sanallaştırma) Örneği: https://github.com/develooper1994/AudioSpectrum
 Augmented Reality(arttırılmış gerçeklik) Örneği: https://github.com/develooper1994/AugmentedReality
